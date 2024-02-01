@@ -64,7 +64,7 @@ export default function Home() {
                                             <span className="html">{"a "}</span>
                                             <span className="attributes">{"href"}</span>
                                             <span className="export">&#61;</span>
-                                            <span className="string">"#myStory"</span>
+                                            <span className="string">&#34;#myStory&#34;</span>
                                             <span className="html-tag">&gt;</span>
                                             <span className="string">Click here to view my story.</span>
                                             <span className="html-tag">&lt;&#47;</span>
@@ -175,7 +175,7 @@ export default function Home() {
                                             <span className="html">{"a "}</span>
                                             <span className="attributes">href</span>
                                             <span className="export">&#61;</span>
-                                            <span className="string">"#workExperiences"</span>
+                                            <span className="string">&#34;#workExperiences&#34;</span>
                                             <span className="html-tag">&gt;</span>
                                             <span className="string">{"Click here to view my work experiences."}</span>
                                             <span className="html-tag">&lt;&#47;</span>
@@ -232,27 +232,27 @@ export default function Home() {
                                     </div>
                                     <div>
                                         <span className="tab2 text-white">company&#58;&nbsp;</span>
-                                        <span className="string">"Atlas Data Network"</span>
+                                        <span className="string">&#34;Atlas Data Network&#34;</span>
                                     </div>
                                     <div>
                                         <span className="tab2 text-white">location&#58;&nbsp;</span>
-                                        <span className="string">"Boat Quay, Singapore"</span>
+                                        <span className="string">&#34;Boat Quay, Singapore&#34;</span>
                                     </div>
                                     <div>
                                         <span className="tab2 text-white">position&#58;&nbsp;</span>
-                                        <span className="string">"Full stack PHP developer (remote)"</span>
+                                        <span className="string">&#34;Full stack PHP developer &#40;remote&#41;&#34;</span>
                                     </div>
                                     <div>
                                         <span className="tab2 text-white">joinedDate&#58;&nbsp;</span>
-                                        <span className="string">"2022-05-01"</span>
+                                        <span className="string">&#34;2022-05-01&#34;</span>
                                     </div>
                                     <div>
                                         <span className="tab2 text-white">endDate&#58;&nbsp;</span>
-                                        <span className="string">"2023-01-31"</span>
+                                        <span className="string">&#34;2023-01-31&#34;</span>
                                     </div>
                                     <div>
                                         <span className="tab2 text-white">reasonLeaving&#58;&nbsp;</span>
-                                        <span className="string">"New offer includes retirement savings"</span>
+                                        <span className="string">&#34;New offer includes retirement savings&#34;</span>
                                     </div>
                                     <div>
                                         <span className="tab2 text-white">description&#58;&nbsp;</span>
@@ -269,49 +269,49 @@ export default function Home() {
                                         </div>
                                         <div>
                                             <span className="string">
-                                            &#34;Involved in projects related to BMW SG, Porsche SG and Mini Cooper SG sales system.&#34;
+                                                &#34;Involved in projects related to BMW SG, Porsche SG and Mini Cooper SG sales system.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                            &#34;Essentially create a software that assist them to custom the parts of the car with dynamic pricing and also include the COE bidding process.&#34;
+                                                &#34;Essentially create a software that assist them to custom the parts of the car with dynamic pricing and also include the COE bidding process.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                            &#34;Integrate third-party API such as SingPass, Docusign, Zoom, and more.&#34;
+                                                &#34;Integrate third-party API such as SingPass, Docusign, Zoom, and more.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                            &#34;Also involved in several other clients in creating sales and finance system."
+                                                &#34;Also involved in several other clients in creating sales and finance system."
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                            &#34;Also involved in several other clients in creating sales and finance system.&#34;
+                                                &#34;Also involved in several other clients in creating sales and finance system.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                            &#34;Using Git to manage branches.&#34;
+                                                &#34;Using Git to manage branches.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                            &#34;Involved in securing all sites such as checking SSL, cookies flag, SQL injection attack, XSS attack and more.&#34;
+                                                &#34;Involved in securing all sites such as checking SSL, cookies flag, SQL injection attack, XSS attack and more.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                            &#34;UAT process with clients.&#34;
+                                                &#34;UAT process with clients.&#34;
                                             </span>
                                         </div>
                                         
@@ -332,23 +332,23 @@ export default function Home() {
                                     </div>
                                     <div>
                                         <span className="text-white tab2">company&#58;&nbsp;</span>
-                                        <span className="string">"Cashbridge"</span>
+                                        <span className="string">&#34;Cashbridge&#34;</span>
                                     </div>
                                     <div>
                                         <span className="text-white tab2">location&#58;&nbsp;</span>
-                                        <span className="string">"Bukit Bintang, Kuala Lumpur"</span>
+                                        <span className="string">&#34;Bukit Bintang, Kuala Lumpur&#34;</span>
                                     </div>
                                     <div>
                                         <span className="text-white tab2">position&#58;&nbsp;</span>
-                                        <span className="string">"Full stack PHP developer"</span>
+                                        <span className="string">&#34;Full stack PHP developer&#34;</span>
                                     </div>
                                     <div>
                                         <span className="text-white tab2">joinedDate&#58;&nbsp;</span>
-                                        <span className="string">"2023-02-01"</span>
+                                        <span className="string">&#34;2023-02-01&#34;</span>
                                     </div>
                                     <div>
                                         <span className="text-white tab2">endDate&#58;&nbsp;</span>
-                                        <span className="string">"Currently work here"</span>
+                                        <span className="string">&#34;Currently work here&#34;</span>
                                     </div>
                                     <div>
                                         <span className="text-white tab2">description&#58;&nbsp;</span>
@@ -365,43 +365,43 @@ export default function Home() {
                                         </div>
                                         <div>
                                             <span className="string">
-                                            &#34;Involved in database and functional design in creating a more efficient and scalable process.&#34;
+                                                &#34;Involved in database and functional design in creating a more efficient and scalable process.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                            &#34;Developed automated funding process and managed to increase the work efficiency by at least 40%.&#34;
+                                                &#34;Developed automated funding process and managed to increase the work efficiency by at least 40%.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                            &#34;Developed a digital wallet and credit system.&#34;
+                                                &#34;Developed a digital wallet and credit system.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                            &#34;Integrate third-party API for necessary processes.&#34;
+                                                &#34;Integrate third-party API for necessary processes.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                            &#34;Overseeing server git system.&#34;
+                                                &#34;Overseeing server git system.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                            &#34;Overseeing all git actions and deployments.&#34;
+                                                &#34;Overseeing all git actions and deployments.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                            &#34;CI/CD.&#34;
+                                                &#34;CI/CD.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
@@ -443,11 +443,11 @@ export default function Home() {
                                     <div><span className="export tab1">&#123;</span></div>
                                     <div>
                                         <span className="text-white tab2">name&#58;&nbsp;</span>
-                                        <span className="string">"ACEIC &#40;Automation and Control Enhancing Innovation Competition&#41;"</span>
+                                        <span className="string">&#34;ACEIC &#40;Automation and Control Enhancing Innovation Competition&#41;&#34;</span>
                                     </div>
                                     <div>
                                         <span className="text-white tab2">year&#58;&nbsp;</span>
-                                        <span className="string">"2020"</span>
+                                        <span className="string">&#34;2020&#34;</span>
                                     </div>
                                     <div>
                                         <span className="text-white tab2">description&#58;&nbsp;</span>
@@ -455,24 +455,24 @@ export default function Home() {
                                     </div>
                                     <div className="tab3">
                                         <div>
-                                            <span className="string">"Silver Award"</span>
+                                            <span className="string">&#34;Silver Award&#34;</span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                            &#34;Invented an Augmented Reality Educational System application utilizing Unity Engine and Vuforia AR engine.&#34;
+                                                &#34;Invented an Augmented Reality Educational System application utilizing Unity Engine and Vuforia AR engine.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                            &#34;The application is equipped with object detection. The detected object will have its own object model.&#34;
+                                                &#34;The application is equipped with object detection. The detected object will have its own object model.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                            &#34;Upon successful detection, the model will show on the screen and user will be able to disassemble the object&#34;
+                                                &#34;Upon successful detection, the model will show on the screen and user will be able to disassemble the object&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
@@ -493,7 +493,7 @@ export default function Home() {
                                     </div>
                                     <div>
                                         <span className="text-white tab2">year&#58;&nbsp;</span>
-                                        <span className="string">&#34;2021"</span>
+                                        <span className="string">&#34;2021&#34;</span>
                                     </div>
                                     <div>
                                         <span className="text-white tab2">description&#58;&nbsp;</span>
@@ -502,25 +502,25 @@ export default function Home() {
                                     <div className="tab3">
                                         <div>
                                             <span className="string">
-                                            &#34;A project based learning workshop hosted by Japan Shibaura Institute of Technology University.&#34;
+                                                &#34;A project based learning workshop hosted by Japan Shibaura Institute of Technology University.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                            &#34;Teamed up with University members from Japan, Korea, Taiwan and Vietnam to create a global server application.&#34;
+                                                &#34;Teamed up with University members from Japan, Korea, Taiwan and Vietnam to create a global server application.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                            &#34;Created an IoT home security system using Arduino Uno and sensors connected to a server and mobile application.&#34;
+                                                &#34;Created an IoT home security system using Arduino Uno and sensors connected to a server and mobile application.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                            &#34;Upon successful detection from the sensors, message will be sent to the mobile application of the user.&#34;
+                                                &#34;Upon successful detection from the sensors, message will be sent to the mobile application of the user.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
@@ -538,13 +538,13 @@ export default function Home() {
                                     <div>
                                         <span className="text-white tab2">name&#58;&nbsp;</span>
                                         <span className="string">
-                                        &#34;Capstone Project&#34;
+                                            &#34;Capstone Project&#34;
                                         </span>
                                     </div>
                                     <div>
                                         <span className="text-white tab2">year&#58;&nbsp;</span>
                                         <span className="string">
-                                        &#34;2021&#34;
+                                            &#34;2021&#34;
                                         </span>
                                     </div>
                                     <div>
@@ -553,18 +553,18 @@ export default function Home() {
                                     </div>
                                     <div className="tab3">
                                         <div>
-                                            <span className="string">"Best capstone project award."</span>
+                                            <span className="string">&#34;Best capstone project award.&#34;</span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                            &#34;Created a food delivery robot that is meant to be deployed in a quarantine center to reduce the needs of human physical contact.&#34;
+                                                &#34;Created a food delivery robot that is meant to be deployed in a quarantine center to reduce the needs of human physical contact.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                            &#34;The delivery robot is incorporated with a Computer Vision Optical Character Recognition (OCR) application to detect the patient&#39;s bed number and deliver the food to the patient.&#34;
+                                                &#34;The delivery robot is incorporated with a Computer Vision Optical Character Recognition (OCR) application to detect the patient&#39;s bed number and deliver the food to the patient.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
@@ -581,7 +581,7 @@ export default function Home() {
                                     </div>
                                     <div>
                                         <span className="text-white tab2">name&#58;&nbsp;</span>
-                                        <span className="string">&#34;NOTT-A-CODE Competition"</span>
+                                        <span className="string">&#34;NOTT-A-CODE Competition&#34;</span>
                                     </div>
                                     <div>
                                         <span className="text-white tab2">year&#58;&nbsp;</span>
