@@ -1,4 +1,75 @@
 html, body {
+    background-color: #051c29!important;
     padding: 0;
     margin: 0;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    margin: 10rem 0;
+}
+
+.string {
+    color: #48e9a6;
+}
+
+.function {
+    color: #fcd405;
+}
+
+.object {
+    color: #48ace9;
+}
+
+.html {
+    color: #e66533;
+}
+
+.export {
+    color: #df769b
+}
+
+.attributes {
+    color: #b98720;
+}
+
+.html-tag {
+    color: #5382a0;
+}
+
+.tab1{
+    display: inline-block;
+    white-space: pre-line;
+    padding-left: 3em;
+}
+
+.tab2{
+    display: inline-block;
+    white-space: pre-line;
+    padding-left: 6em;
+}
+
+.tab3{
+    display: inline-block;
+    white-space: pre-line;
+    padding-left: 9em;
+}
+
+.tab4{
+    display: inline-block;
+    white-space: pre-line;
+    padding-left: 12em;
+}
+
+.tab5{
+    display: inline-block;
+    white-space: pre-line;
+    padding-left: 15em;
+}
+
+.tab6{
+    display: inline-block;
+    white-space: pre-line;
+    padding-left: 18em;
 }
