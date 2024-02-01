@@ -287,7 +287,7 @@ export default function Home() {
                                         </div>
                                         <div>
                                             <span className="string">
-                                                &#34;Also involved in several other clients in creating sales and finance system."
+                                                &#34;Also involved in several other clients in creating sales and finance system.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
