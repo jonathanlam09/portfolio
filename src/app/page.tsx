@@ -15,7 +15,7 @@ export default function Home() {
                 <NavBar></NavBar>
             </div>
             <section className="section" id="introduction">
-                <div className="introduction">
+                <div className="introduction d-flex justify-content-center">
                     <div className="card code-card introduction-card">
                         <div className="card-header" style={{ backgroundColor: "transparent" }}>
                             <div className="d-flex" style={{ fontSize: "12px" }}>
@@ -29,23 +29,22 @@ export default function Home() {
                                 <pre>
                                 <span className="html">const</span>
                                 <span className="object"> Introduction</span>
-                                <span className="export"> = </span>
-                                <span className="function">()</span>
-                                <span className="html"> =&gt; </span>
+                                <span className="export"> &#61; </span>
+                                <span className="function">	&#40;&#41;</span>
+                                <span className="html"> &#61;&gt; </span>
                                 <span className="function">&#123;</span>
                                 <div>
                                     <span className="export tab1">return &#40;</span>
                                 </div>
                                 <div>
-                                    <span className="html-tag tab2">{"<"}
-                                    </span>
-                                    <span className="html">{"div"}</span>
-                                    <span className="html-tag">{">"}</span>
+                                    <span className="html-tag tab2">&lt;</span>
+                                    <span className="html">div</span>
+                                    <span className="html-tag">&gt;</span>
                                 </div>
                                 <div>
-                                    <span className="html-tag tab3">{"<"}</span>
+                                    <span className="html-tag tab3">&lt;</span>
                                     <span className="html">p</span>
-                                    <span className="html-tag">{">"}</span>
+                                    <span className="html-tag">&gt;</span>
                                 </div>
                                 <div className="text-white">
                                     <div className="tab4">
@@ -61,48 +60,48 @@ export default function Home() {
                                     <div className="tab4">
                                         <br></br>
                                         <a href="#myStory" style={{ textDecoration:"none", color:"white"}}>
-                                            <span className="html-tag">{"<"}</span>
+                                            <span className="html-tag">&lt;</span>
                                             <span className="html">{"a "}</span>
                                             <span className="attributes">{"href"}</span>
-                                            <span className="export">{"="}</span>
+                                            <span className="export">&#61;</span>
                                             <span className="string">"#myStory"</span>
-                                            <span className="html-tag">{">"}</span>
-                                            <span className="string">{"Click here to view my story."}</span>
-                                            <span className="html-tag">{"</"}</span>
-                                            <span className="html">{"a"}</span>
-                                            <span className="html-tag">{">"}</span>
+                                            <span className="html-tag">&gt;</span>
+                                            <span className="string">Click here to view my story.</span>
+                                            <span className="html-tag">&lt;&#47;</span>
+                                            <span className="html">a</span>
+                                            <span className="html-tag">&gt;</span>
                                         </a>
                                     </div>
                                 </div>
                                 <div>
-                                    <span className="html-tag tab3">{"</"}</span>
+                                    <span className="html-tag tab3">&lt;&#47;</span>
                                     <span className="html">p</span>
-                                    <span className="html-tag">{">"}</span>
+                                    <span className="html-tag">&gt;</span>
                                 </div>
                                 <div>
-                                    <span className="html-tag tab2">{"</"}</span>
+                                    <span className="html-tag tab2">&lt;&#47;</span>
                                     <span className="html">div</span>
-                                    <span className="html-tag">{">"}</span>
+                                    <span className="html-tag">&gt;</span>
                                 </div>
                                 <div>
-                                    <span className="export tab1">{")"}</span>
+                                    <span className="export tab1">&#41;</span>
                                 </div>
                                 <div>
-                                    <span className="function">{"}"}</span>
+                                    <span className="function">&#125;</span>
                                 </div>
                             </pre>
                             </code>
                         </div>
                     </div>
                 </div>
-                <div className="d-flex justify-content-center align-items-center" style={{ height: "100%", paddingLeft: "3rem" }}>
+                <div className="d-flex justify-content-center align-items-center mt-5" style={{ height: "100%" }}>
                     <FontAwesomeIcon icon={faCheck} className="p-1 fas fa-circle text-white"/>
                     <code className="text-white">Introduction</code>
                 </div>
             </section>
 
             <section className="section" id="myStory">
-                <div className="my-story">
+                <div className="my-story d-flex justify-content-center">
                     <div className="card code-card my-story-card">
                         <div className="card-header" style={{ backgroundColor: "transparent" }}>
                             <div className="d-flex" style={{ fontSize: "12px" }}>
@@ -116,9 +115,9 @@ export default function Home() {
                                 <pre>
                                 <span className="html">const</span>
                                 <span className="object"> MyStory</span>
-                                <span className="export"> = </span>
+                                <span className="export"> &#61; </span>
                                 <span className="function">()</span>
-                                <span className="html"> =&gt; </span>
+                                <span className="html"> &#61;&gt; </span>
                                 <span className="function">&#123;</span>
                                 <div>
                                     <span className="export tab1">return &#40;</span>
@@ -127,12 +126,12 @@ export default function Home() {
                                     <span className="html-tag tab2">{"<"}
                                     </span>
                                     <span className="html">{"div"}</span>
-                                    <span className="html-tag">{">"}</span>
+                                    <span className="html-tag">&gt;</span>
                                 </div>
                                 <div>
                                     <span className="html-tag tab3">{"<"}</span>
                                     <span className="html">p</span>
-                                    <span className="html-tag">{">"}</span>
+                                    <span className="html-tag">&gt;</span>
                                 </div>
                                 <div className="text-white">
                                     <div className="tab4">
@@ -172,48 +171,47 @@ export default function Home() {
                                     <div className="tab4">
                                         <br></br>
                                         <a href="#workExperiences" style={{ textDecoration:"none", color:"white"}}>
-                                            <span className="html-tag">{"<"}</span>
+                                            <span className="html-tag">&lt;</span>
                                             <span className="html">{"a "}</span>
-                                            <span className="attributes">{"href"}</span>
-                                            <span className="export">{"="}</span>
+                                            <span className="attributes">href</span>
+                                            <span className="export">&#61;</span>
                                             <span className="string">"#workExperiences"</span>
-                                            <span className="html-tag">{">"}</span>
+                                            <span className="html-tag">&gt;</span>
                                             <span className="string">{"Click here to view my work experiences."}</span>
-                                            <span className="html-tag">{"</"}</span>
-                                            <span className="html">{"a"}</span>
-                                            <span className="html-tag">{">"}</span>
+                                            <span className="html-tag">&lt;&#47;</span>
+                                            <span className="html">a</span>
+                                            <span className="html-tag">&gt;</span>
                                         </a>
                                     </div>
                                 </div>
                                 <div>
-                                    <span className="html-tag tab3">{"</"}</span>
+                                    <span className="html-tag tab3">&lt;&#47;</span>
                                     <span className="html">p</span>
-                                    <span className="html-tag">{">"}</span>
+                                    <span className="html-tag">&gt;</span>
                                 </div>
                                 <div>
-                                    <span className="html-tag tab2">{"</"}</span>
+                                    <span className="html-tag tab2">&lt;&#47;</span>
                                     <span className="html">div</span>
-                                    <span className="html-tag">{">"}</span>
+                                    <span className="html-tag">&gt;</span>
                                 </div>
                                 <div>
-                                    <span className="export tab1">{")"}</span>
+                                    <span className="export tab1">&#41;</span>
                                 </div>
                                 <div>
-                                    <span className="function">
-                                        {"}"}</span>
+                                    <span className="function">&#125;</span>
                                 </div>
                             </pre>
                             </code>
                         </div>
                     </div>
                 </div>
-                <div className="d-flex justify-content-center align-items-center" style={{ height: "100%", paddingLeft: "3rem" }}>
+                <div className="d-flex justify-content-center align-items-center mt-5" style={{ height: "100%" }}>
                     <FontAwesomeIcon icon={faCheck} className="p-1 fas fa-circle text-white"/>
-                    <code className="text-white">My Story. What's yours?</code>
+                    <code className="text-white">My Story. What&#39;s yours?</code>
                 </div>
             </section>
             <section className="section" id="workExperiences">
-                <div className="work-experience">
+                <div className="work-experience d-flex justify-content-center">
                     <div className="card code-card work-experience-card">
                         <div className="card-header" style={{ backgroundColor: "transparent" }}>
                             <div className="d-flex" style={{ fontSize: "12px" }}>
@@ -227,206 +225,206 @@ export default function Home() {
                                 <pre>
                                     <span className="html">const</span>
                                     <span className="object"> WorkExperiences</span>
-                                    <span className="export"> = </span>
+                                    <span className="export"> &#61; </span>
                                     <span className="function">&#91;</span>
                                     <div>
-                                        <span className="export tab1">{"{"}</span>
+                                        <span className="export tab1">&#123;</span>
                                     </div>
                                     <div>
-                                        <span className="tab2 text-white">company:&nbsp;</span>
+                                        <span className="tab2 text-white">company&#58;&nbsp;</span>
                                         <span className="string">"Atlas Data Network"</span>
                                     </div>
                                     <div>
-                                        <span className="tab2 text-white">location:&nbsp;</span>
+                                        <span className="tab2 text-white">location&#58;&nbsp;</span>
                                         <span className="string">"Boat Quay, Singapore"</span>
                                     </div>
                                     <div>
-                                        <span className="tab2 text-white">position:&nbsp;</span>
+                                        <span className="tab2 text-white">position&#58;&nbsp;</span>
                                         <span className="string">"Full stack PHP developer (remote)"</span>
                                     </div>
                                     <div>
-                                        <span className="tab2 text-white">joinedDate:&nbsp;</span>
+                                        <span className="tab2 text-white">joinedDate&#58;&nbsp;</span>
                                         <span className="string">"2022-05-01"</span>
                                     </div>
                                     <div>
-                                        <span className="tab2 text-white">endDate:&nbsp;</span>
+                                        <span className="tab2 text-white">endDate&#58;&nbsp;</span>
                                         <span className="string">"2023-01-31"</span>
                                     </div>
                                     <div>
-                                        <span className="tab2 text-white">reasonLeaving:&nbsp;</span>
+                                        <span className="tab2 text-white">reasonLeaving&#58;&nbsp;</span>
                                         <span className="string">"New offer includes retirement savings"</span>
                                     </div>
                                     <div>
-                                        <span className="tab2 text-white">description:&nbsp;</span>
-                                        <span className="function">{"["}</span>
+                                        <span className="tab2 text-white">description&#58;&nbsp;</span>
+                                        <span className="function">&#91;</span>
                                     </div>
                                     <div  className="tab3">
                                         <div>
-                                            <span className="string">"PHP based mainly using Laravel or Codeigniter framework."</span>
+                                            <span className="string">&#34;PHP based mainly using Laravel or Codeigniter framework.&#34;</span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
-                                            <span className="string">"Create and develop projects based on clients requirements."</span>
+                                            <span className="string">&#34;Create and develop projects based on clients requirements.&#34;</span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                                "Involved in projects related to BMW SG, Porsche SG and Mini Cooper SG sales system."
+                                            &#34;Involved in projects related to BMW SG, Porsche SG and Mini Cooper SG sales system.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                                "Essentially create a software that assist them to custom the parts of the car with dynamic pricing and also include the COE bidding process."
+                                            &#34;Essentially create a software that assist them to custom the parts of the car with dynamic pricing and also include the COE bidding process.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                                "Integrate third-party API such as SingPass, Docusign, Zoom, and more."
+                                            &#34;Integrate third-party API such as SingPass, Docusign, Zoom, and more.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                                "Also involved in several other clients in creating sales and finance system."
+                                            &#34;Also involved in several other clients in creating sales and finance system."
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                                "Also involved in several other clients in creating sales and finance system."
+                                            &#34;Also involved in several other clients in creating sales and finance system.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                                "Using Git to manage branches."
+                                            &#34;Using Git to manage branches.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                                "Involved in securing all sites such as checking SSL, cookies flag, SQL injection attack, XSS attack and more."
+                                            &#34;Involved in securing all sites such as checking SSL, cookies flag, SQL injection attack, XSS attack and more.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                                "UAT process with clients."
+                                            &#34;UAT process with clients.&#34;
                                             </span>
                                         </div>
                                         
                                     </div>
                                     <div>
-                                        <span className="function tab2">{"]"}</span>
+                                        <span className="function tab2">&#93;</span>
                                     </div>
                                     <div>
                                         <span className="export">
                                             &nbsp;&nbsp;&nbsp;&nbsp;
-                                            {"}"}
+                                            &#125;
                                         </span>
                                         <span className="text-white">, &nbsp;</span>
                                     </div>
                                     <div>
                                         &nbsp;&nbsp;&nbsp;&nbsp;
-                                        <span className="export">{"{"}</span>
+                                        <span className="export">&#123;</span>
                                     </div>
                                     <div>
-                                        <span className="text-white tab2">company:&nbsp;</span>
+                                        <span className="text-white tab2">company&#58;&nbsp;</span>
                                         <span className="string">"Cashbridge"</span>
                                     </div>
                                     <div>
-                                        <span className="text-white tab2">location:&nbsp;</span>
+                                        <span className="text-white tab2">location&#58;&nbsp;</span>
                                         <span className="string">"Bukit Bintang, Kuala Lumpur"</span>
                                     </div>
                                     <div>
-                                        <span className="text-white tab2">position:&nbsp;</span>
+                                        <span className="text-white tab2">position&#58;&nbsp;</span>
                                         <span className="string">"Full stack PHP developer"</span>
                                     </div>
                                     <div>
-                                        <span className="text-white tab2">joinedDate:&nbsp;</span>
+                                        <span className="text-white tab2">joinedDate&#58;&nbsp;</span>
                                         <span className="string">"2023-02-01"</span>
                                     </div>
                                     <div>
-                                        <span className="text-white tab2">endDate:&nbsp;</span>
+                                        <span className="text-white tab2">endDate&#58;&nbsp;</span>
                                         <span className="string">"Currently work here"</span>
                                     </div>
                                     <div>
-                                        <span className="text-white tab2">description:&nbsp;</span>
-                                        <span className="function">{"["}</span>
+                                        <span className="text-white tab2">description&#58;&nbsp;</span>
+                                        <span className="function">&#91;</span>
                                     </div>
                                     <div className="tab3">
                                         <div>
-                                            <span className="string">"Phalcon PHP framework."</span>
+                                            <span className="string">&#34;Phalcon PHP framework.&#34;</span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
-                                            <span className="string">"Development and optimize in-house system process."</span>
+                                            <span className="string">&#34;Development and optimize in-house system process.&#34;</span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                                "Involved in database and functional design in creating a more efficient and scalable process."
+                                            &#34;Involved in database and functional design in creating a more efficient and scalable process.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                                "Developed automated funding process and managed to increase the work efficiency by at least 40%."
+                                            &#34;Developed automated funding process and managed to increase the work efficiency by at least 40%.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                                "Developed a digital wallet and credit system."
+                                            &#34;Developed a digital wallet and credit system.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                                "Integrate third-party API for necessary processes."
+                                            &#34;Integrate third-party API for necessary processes.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                                "Overseeing server git system."
+                                            &#34;Overseeing server git system.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                                "Overseeing all git actions and deployments."
+                                            &#34;Overseeing all git actions and deployments.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                                "CI/CD."
+                                            &#34;CI/CD.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                     </div>
                                     <div>
-                                        <span className="function tab2">{"]"}</span>
+                                        <span className="function tab2">&#93;</span>
                                     </div>
                                     <div>
-                                        <span className="export tab1">{"}"}</span>
-                                        <span className="function">{"]"}</span>
+                                        <span className="export tab1">&#125;</span>
+                                        <span className="function">&#93;</span>
                                     </div>
                                 </pre>
                             </code>
                         </div>
                     </div>
                 </div>
-                <div className="d-flex justify-content-center align-items-center" style={{ height: "100%", paddingLeft: "3rem" }}>
+                <div className="d-flex justify-content-center align-items-center mt-5" style={{ height: "100%" }}>
                     <FontAwesomeIcon icon={faCheck} className="p-1 fas fa-circle text-white"/>
                     <code className="text-white">Trust the process.</code>
                 </div>
             </section>
             <section className="section" id="achievements">
-                <div className="achievements">
+                <div className="achievements d-flex justify-content-center">
                     <div className="card code-card achievement-card">
                         <div className="card-header" style={{ backgroundColor: "transparent" }}>
                             <div className="d-flex" style={{ fontSize: "12px" }}>
@@ -440,20 +438,20 @@ export default function Home() {
                                 <pre>
                                     <span className="html">const</span>
                                     <span className="object"> Achievements</span>
-                                    <span className="export"> = </span>
+                                    <span className="export"> &#61; </span>
                                     <span className="function">&#91;</span>
-                                    <div><span className="export tab1">{"{"}</span></div>
+                                    <div><span className="export tab1">&#123;</span></div>
                                     <div>
-                                        <span className="text-white tab2">name:&nbsp;</span>
-                                        <span className="string">"ACEIC (Automation and Control Enhancing Innovation Competition)"</span>
+                                        <span className="text-white tab2">name&#58;&nbsp;</span>
+                                        <span className="string">"ACEIC &#40;Automation and Control Enhancing Innovation Competition&#41;"</span>
                                     </div>
                                     <div>
-                                        <span className="text-white tab2">year:&nbsp;</span>
+                                        <span className="text-white tab2">year&#58;&nbsp;</span>
                                         <span className="string">"2020"</span>
                                     </div>
                                     <div>
-                                        <span className="text-white tab2">description:&nbsp;</span>
-                                        <span className="function">{"["}</span>
+                                        <span className="text-white tab2">description&#58;&nbsp;</span>
+                                        <span className="function">&#91;</span>
                                     </div>
                                     <div className="tab3">
                                         <div>
@@ -462,96 +460,96 @@ export default function Home() {
                                         </div>
                                         <div>
                                             <span className="string">
-                                                "Invented an Augmented Reality Educational System application utilizing Unity Engine and Vuforia AR engine."
+                                            &#34;Invented an Augmented Reality Educational System application utilizing Unity Engine and Vuforia AR engine.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                                "The application is equipped with object detection. The detected object will have its own object model."
+                                            &#34;The application is equipped with object detection. The detected object will have its own object model.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                                "Upon successful detection, the model will show on the screen and user will be able to disassemble the object
+                                            &#34;Upon successful detection, the model will show on the screen and user will be able to disassemble the object&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                     </div>
                                     <div>
-                                        <span className="function tab2">{"]"}</span>
+                                        <span className="function tab2">&#93;</span>
                                     </div>
                                     <div>
-                                        <span className="export tab1">{"}"}</span>
+                                        <span className="export tab1">&#125;</span>
                                         <span className="text-white">, &nbsp;</span>
                                     </div>
                                     <div>
-                                        <span className="export tab1">{"{"}</span>
+                                        <span className="export tab1">&#123;</span>
                                     </div>
                                     <div>
-                                        <span className="text-white tab2">name:&nbsp;</span>
-                                        <span className="string">"gPBL (Global Project Based Learning)"</span>
+                                        <span className="text-white tab2">name&#58;&nbsp;</span>
+                                        <span className="string">&#34;gPBL (Global Project Based Learning)&#34;</span>
                                     </div>
                                     <div>
-                                        <span className="text-white tab2">year:&nbsp;</span>
-                                        <span className="string">"2021"</span>
+                                        <span className="text-white tab2">year&#58;&nbsp;</span>
+                                        <span className="string">&#34;2021"</span>
                                     </div>
                                     <div>
-                                        <span className="text-white tab2">description:&nbsp;</span>
-                                        <span className="function">{"["}</span>
+                                        <span className="text-white tab2">description&#58;&nbsp;</span>
+                                        <span className="function">&#91;</span>
                                     </div>
                                     <div className="tab3">
                                         <div>
                                             <span className="string">
-                                                "A project based learning workshop hosted by Japan Shibaura Institute of Technology University."
+                                            &#34;A project based learning workshop hosted by Japan Shibaura Institute of Technology University.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                                "Teamed up with University members from Japan, Korea, Taiwan and Vietnam to create a global server application."
+                                            &#34;Teamed up with University members from Japan, Korea, Taiwan and Vietnam to create a global server application.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                                "Created an IoT home security system using Arduino Uno and sensors connected to a server and mobile application."
+                                            &#34;Created an IoT home security system using Arduino Uno and sensors connected to a server and mobile application.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                                "Upon successful detection from the sensors, message will be sent to the mobile application of the user."
+                                            &#34;Upon successful detection from the sensors, message will be sent to the mobile application of the user.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                     </div>
                                     <div>
-                                        <span className="function tab2">{"]"}</span>
+                                        <span className="function tab2">&#93;</span>
                                     </div>
                                     <div>
-                                        <span className="export tab1">{"}"}</span>
+                                        <span className="export tab1">&#125;</span>
                                         <span className="text-white">,</span>
                                     </div>
                                     <div>
-                                        <span className="export tab1">{"{"}</span>
+                                        <span className="export tab1">&#123;</span>
                                     </div>
                                     <div>
-                                        <span className="text-white tab2">name:&nbsp;</span>
+                                        <span className="text-white tab2">name&#58;&nbsp;</span>
                                         <span className="string">
-                                            "Capstone Project"
+                                        &#34;Capstone Project&#34;
                                         </span>
                                     </div>
                                     <div>
-                                        <span className="text-white tab2">year:&nbsp;</span>
+                                        <span className="text-white tab2">year&#58;&nbsp;</span>
                                         <span className="string">
-                                            "2021"
+                                        &#34;2021&#34;
                                         </span>
                                     </div>
                                     <div>
-                                        <span className="text-white tab2">description:&nbsp;</span>
-                                        <span className="function">{"["}</span>
+                                        <span className="text-white tab2">description&#58;&nbsp;</span>
+                                        <span className="function">&#91;</span>
                                     </div>
                                     <div className="tab3">
                                         <div>
@@ -560,158 +558,158 @@ export default function Home() {
                                         </div>
                                         <div>
                                             <span className="string">
-                                                "Created a food delivery robot that is meant to be deployed in a quarantine center to reduce the needs of human physical contact."
+                                            &#34;Created a food delivery robot that is meant to be deployed in a quarantine center to reduce the needs of human physical contact.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                                "The delivery robot is incorporated with a Computer Vision Optical Character Recognition (OCR) application to detect the patient's bed number and deliver the food to the patient."
+                                            &#34;The delivery robot is incorporated with a Computer Vision Optical Character Recognition (OCR) application to detect the patient's bed number and deliver the food to the patient.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                     </div>
                                     <div>
-                                        <span className="function tab2">{"]"}</span>
+                                        <span className="function tab2">&#93;</span>
                                     </div>
                                     <div>
-                                        <span className="export tab1">{"}"}</span>
+                                        <span className="export tab1">&#125;</span>
                                         <span className="text-white">, &nbsp;</span>
                                     </div>
                                     <div>
-                                        <span className="export tab1">{"{"}</span>
+                                        <span className="export tab1">&#123;</span>
                                     </div>
                                     <div>
-                                        <span className="text-white tab2">name:&nbsp;</span>
-                                        <span className="string">"NOTT-A-CODE Competition"</span>
+                                        <span className="text-white tab2">name&#58;&nbsp;</span>
+                                        <span className="string">&#34;NOTT-A-CODE Competition"</span>
                                     </div>
                                     <div>
-                                        <span className="text-white tab2">year:&nbsp;</span>
-                                        <span className="string">"2021"</span>
+                                        <span className="text-white tab2">year&#58;&nbsp;</span>
+                                        <span className="string">&#34;2021&#34;</span>
                                     </div>
                                     <div>
-                                        <span className="text-white tab2">description:&nbsp;</span>
-                                        <span className="function">{"["}</span>
+                                        <span className="text-white tab2">description&#58;&nbsp;</span>
+                                        <span className="function">&#91;</span>
                                     </div>
                                     <div className="tab3">
                                         <div>
-                                            <span className="string">"Champion."</span>
+                                            <span className="string">&#34;Champion.&#34;</span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                                "Using .NET Core as backend, Angular 12 as frontend."
+                                                &#34;Using .NET Core as backend, Angular 12 as frontend.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                                "To create a food ordering chatbot."
+                                                &#34;To create a food ordering chatbot.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                                "The chatbot is created using Artificial Intelligence Natural Language Processing."
+                                                &#34;The chatbot is created using Artificial Intelligence Natural Language Processing.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                                "The chatbot is connected to a MySQL database where the ordering menu is stored."
+                                                &#34;The chatbot is connected to a MySQL database where the ordering menu is stored.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                                "Upon given input, the chatbot will query the database if required, filter the results based on detected intent."
+                                                &#34;Upon given input, the chatbot will query the database if required, filter the results based on detected intent.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                                "Web-sockets is also implemented for live chat function."
+                                                &#34;Web-sockets is also implemented for live chat function.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                                "Confirmation orders will redirect user to transaction page to perform transaction"
+                                                &#34;Confirmation orders will redirect user to transaction page to perform transaction&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                     </div>
                                     <div>
-                                        <span className="function tab2">{"]"}</span>
+                                        <span className="function tab2">&#93;</span>
                                     </div>
                                     <div>
-                                        <span className="export tab1">{"}"}</span>
+                                        <span className="export tab1">&#125;</span>
                                         <span className="text-white">, &nbsp;</span>
                                     </div>
                                     <div>
-                                        <span className="export tab1">{"{"}</span>
+                                        <span className="export tab1">&#123;</span>
                                     </div>
                                     <div>
-                                        <span className="text-white tab2">name:&nbsp;</span>
-                                        <span className="string">"Innovate Malaysia Design Competition"</span>
+                                        <span className="text-white tab2">name&#58;&nbsp;</span>
+                                        <span className="string">&#34;Innovate Malaysia Design Competition&#34;</span>
                                     </div>
                                     <div>
-                                        <span className="text-white tab2">year:&nbsp;</span>
-                                        <span className="string">"2023"</span>
+                                        <span className="text-white tab2">year&#58;&nbsp;</span>
+                                        <span className="string">&#34;2023&#34;</span>
                                     </div>
                                     <div>
-                                        <span className="text-white tab2">description:&nbsp;</span>
-                                        <span className="function">{"["}</span>
+                                        <span className="text-white tab2">description&#58;&nbsp;</span>
+                                        <span className="function">&#91;</span>
                                     </div>
                                     <div className="tab3">
                                         <div>
-                                            <span className="string">"To create a quadruple AIoT(AI+IoT) green system."</span>
+                                            <span className="string">&#34;To create a quadruple AIoT(AI+IoT) green system.&#34;</span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                                "Systems included are waste recognition system, composting system, sowing and gardening system."
+                                            &#34;Systems included are waste recognition system, composting system, sowing and gardening system.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                                "To apply Computer Vision using fast R-CNN for object detection in the waste recognition system."
+                                            &#34;To apply Computer Vision using fast R-CNN for object detection in the waste recognition system.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                                "To deploy the model using Intel OpenVINO inference toolkit for a smoother performance."
+                                            &#34;To deploy the model using Intel OpenVINO inference toolkit for a smoother performance.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                         <div>
                                             <span className="string">
-                                                "To apply Support Vector Machine prediction model in composting system to estimate the compost completion duration."
+                                            &#34;To apply Support Vector Machine prediction model in composting system to estimate the compost completion duration.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
                                     </div>
                                     <div>
-                                        <span className="function tab2">{"]"}</span>
+                                        <span className="function tab2">&#93;</span>
                                     </div>
                                     <div>
-                                        <span className="export tab1">{"}"}</span>
-                                        <span className="function">{"]"}</span>
+                                        <span className="export tab1">&#125;</span>
+                                        <span className="function">&#93;</span>
                                     </div>
                                 </pre>
                             </code>
                         </div>
                     </div>
                 </div>
-                <div className="d-flex justify-content-center align-items-center" style={{ height: "100%", paddingLeft: "3rem" }}>
+                <div className="d-flex justify-content-center align-items-center mt-5" style={{ height: "100%" }}>
                     <FontAwesomeIcon icon={faCheck} className="p-1 fas fa-circle text-white"/>
                     <code className="text-white">Glory to God.</code>
                 </div>
             </section>
             <section className="section" id="projects">
-                <div className="projects">
+                <div className="projects d-flex justify-content-center">
                     <div className="card code-card project-card">
                         <div className="card-header" style={{ backgroundColor: "transparent" }}>
                             <div className="d-flex" style={{ fontSize: "12px" }}>
@@ -725,225 +723,226 @@ export default function Home() {
                                 <pre>
                                     <span className="html">const</span>
                                     <span className="object"> Projects</span>
-                                    <span className="export"> = </span>
+                                    <span className="export"> &#61; </span>
                                     <span className="function">&#91;</span>
-                                    <div><span className="export tab1">{"{"}</span></div>
+                                    <div><span className="export tab1">&#123;</span></div>
                                     <div>
-                                        <span className="text-white tab2">name:&nbsp;</span>
-                                        <span className="string">"Station R Games - Twelve Floor"</span>
+                                        <span className="text-white tab2">name&#58;&nbsp;</span>
+                                        <span className="string">&#34;Station R Games - Twelve Floor&#34;</span>
                                     </div>
                                     <div>
-                                        <span className="text-white tab2">year:&nbsp;</span>
-                                        <span className="string">"2022"</span>
+                                        <span className="text-white tab2">year&#58;&nbsp;</span>
+                                        <span className="string">&#34;2022&#34;</span>
                                     </div>
                                     <div>
-                                        <span className="text-white tab2">clientName:&nbsp;</span>
-                                        <span className="string">"Ray Low"</span>
+                                        <span className="text-white tab2">clientName&#58;&nbsp;</span>
+                                        <span className="string">&#34;Ray Low&#34;</span>
                                     </div>
                                     <div>
-                                        <span className="text-white tab2">status:&nbsp;</span>
-                                        <span className="string">"COMPLETED"</span>
+                                        <span className="text-white tab2">status&#58;&nbsp;</span>
+                                        <span className="string">&#34;COMPLETED&#34;</span>
                                     </div>
                                     <div>
-                                        <span className="text-white tab2">website:&nbsp;</span>
-                                        <span className="string">"Expired"</span>
+                                        <span className="text-white tab2">website&#58;&nbsp;</span>
+                                        <span className="string">&#34;Expired&#34;</span>
                                     </div>
                                     <div>
-                                        <span className="text-white tab2">remarks:&nbsp;</span>
-                                        <span className="function">{"["}</span>
+                                        <span className="text-white tab2">remarks&#58;&nbsp;</span>
+                                        <span className="function">&#91;</span>
                                     </div>
                                     <div>
                                         <span className="string tab3" style={{ whiteSpace: "pre-line" }}>
-                                            "Ray is a friend of mine from University. 
+                                            &#34;Ray is a friend of mine from University. 
                                             During my time of transitioning into web development, 
                                             He approached me to create a website for his 2D game that he developed.
                                             This project was build using NodeJS. Nothing too complex. 
                                             Not too many API involved as well. This project was hosted on Heroku during the eco dyno time which was free. 
                                             However, Heroku has removed its free tier. 
-                                            Thus the site is no longer available."
+                                            Thus the site is no longer available.&#34;
                                         </span>
                                     </div>
                                     <div>
-                                        <span className="function tab2">{"]"}</span>
+                                        <span className="function tab2">&#93;</span>
                                     </div>
                                     <div>
-                                        <span className="export tab1">{"}"}</span>
+                                        <span className="export tab1">&#125;</span>
                                         <span className="text-white">, &nbsp;</span>
                                     </div>
                                     <div>
-                                        <span className="export tab1">{"{"}</span>
+                                        <span className="export tab1">&#123;</span>
                                     </div>
                                     <div>
-                                        <span className="text-white tab2">name:&nbsp;</span>
-                                        <span className="string">"Crossover Point Website"</span>
+                                        <span className="text-white tab2">name&#58;&nbsp;</span>
+                                        <span className="string">&#34;Crossover Point Website&#34;</span>
                                     </div>
                                     <div>
-                                        <span className="text-white tab2">year:&nbsp;</span>
-                                        <span className="string">"2023"</span>
+                                        <span className="text-white tab2">year&#58;&nbsp;</span>
+                                        <span className="string">&#34;2023&#34;</span>
                                     </div>
                                     <div>
-                                        <span className="text-white tab2">clientName:&nbsp;</span>
-                                        <span className="string">"Crossover Point "</span>
+                                        <span className="text-white tab2">clientName&#58;&nbsp;</span>
+                                        <span className="string">&#34;Crossover Point &#34;</span>
                                     </div>
                                     <div>
-                                        <span className="text-white tab2">status:&nbsp;</span>
-                                        <span className="string">"COMPLETED"</span>
+                                        <span className="text-white tab2">status&#58;&nbsp;</span>
+                                        <span className="string">&#34;COMPLETED&#34;</span>
                                     </div>
                                     <div>
-                                        <span className="text-white tab2">website:&nbsp;</span>
+                                        <span className="text-white tab2">website&#58;&nbsp;</span>
                                         <span className="string"><a href="https://crossoverpoint.org.my" className="string" target="_blank" style={{ textDecoration: "none" }}>{`"https://crossoverpoint.org.my"`}</a></span>
                                     </div>
                                     <div>
-                                        <span className="text-white tab2">remarks:&nbsp;</span>
-                                        <span className="function">{"["}</span>
+                                        <span className="text-white tab2">remarks&#58;&nbsp;</span>
+                                        <span className="function">&#91;</span>
                                     </div>
                                     <div>
                                         <span className="string tab3">
-                                            "Crossover Point is a church organization. 
+                                            &#34;Crossover Point is a church organization. 
                                             Crossover Point were in the midst of transitioning platform. 
                                             Thus, I was approached to create a website for them.
-                                            The site was built on Laravel 9 monolithically."
+                                            The site was built on Laravel 9 monolithically.&#34;
                                         </span>
                                     </div>
                                     <div>
-                                        <span className="function tab2">{"]"}</span>
+                                        <span className="function tab2">&#93;</span>
                                     </div>
                                     <div>
-                                        <span className="export tab1">{"}"}</span>
+                                        <span className="export tab1">&#125;</span>
                                         <span className="text-white">,</span>
                                     </div>
                                     <div>
-                                        <span className="export tab1">{"{"}</span>
+                                        <span className="export tab1">&#123;</span>
                                     </div>
                                     <div>
-                                        <span className="text-white tab2">name:&nbsp;</span>
-                                        <span className="string">"Crossover Point Admin Portal"</span>
+                                        <span className="text-white tab2">name&#58;&nbsp;</span>
+                                        <span className="string">&#34;Crossover Point Admin Portal&#34;</span>
                                     </div>
                                     <div>
-                                        <span className="text-white tab2">year:&nbsp;</span>
-                                        <span className="string">"2023"</span>
+                                        <span className="text-white tab2">year&#58;&nbsp;</span>
+                                        <span className="string">&#34;2023&#34;</span>
                                     </div>
                                     <div>
-                                        <span className="text-white tab2">clientName:&nbsp;</span>
-                                        <span className="string">"Crossover Point"</span>
+                                        <span className="text-white tab2">clientName&#58;&nbsp;</span>
+                                        <span className="string">&#34;Crossover Point&#34;</span>
                                     </div>
                                     <div>
-                                        <span className="text-white tab2">status:&nbsp;</span>
-                                        <span className="string">"COMPLETED"</span>
+                                        <span className="text-white tab2">status&#58;&nbsp;</span>
+                                        <span className="string">&#34;COMPLETED&#34;</span>
                                     </div>
                                     <div>
-                                        <span className="text-white tab2">website:&nbsp;</span>
+                                        <span className="text-white tab2">website&#58;&nbsp;</span>
                                         <span className="string"><a href="https://admin.crossoverpoint.org.my" className="string" target="_blank" style={{ textDecoration: "none" }}>{`"https://admin.crossoverpoint.org.my"`}</a></span>
                                     </div>
                                     <div>
-                                        <span className="text-white tab2">remarks:&nbsp;</span>
-                                        <span className="function">{"["}</span>
+                                        <span className="text-white tab2">remarks&#58;&nbsp;</span>
+                                        <span className="function">&#91;</span>
                                     </div>
                                     <div>
                                         <span className="string tab3" style={{ whiteSpace: "pre-line" }}>
-                                            "Crossover Point admin portal is a the admin portal for the leaders of the church.
+                                            &#34;Crossover Point admin portal is a the admin portal for the leaders of the church.
                                             This admin portal is also built on Laravel 9 monolithically. 
-                                            There are several modules which are audit logs, permission, attendance, scheduling, events, sermons, users and members. "
+                                            There are several modules which are audit logs, permission, attendance, scheduling, events, sermons, users and members. &#34;
                                         </span>
                                     </div>
                                     <div>
-                                        <span className="function tab2">{"]"}</span>
+                                        <span className="function tab2">&#93;</span>
                                     </div>
                                     <div>
-                                        <span className="export tab1">{"}"}</span>
+                                        <span className="export tab1">&#125;</span>
                                         <span className="text-white">,</span>
                                     </div>
                                     <div>
-                                        <span className="export tab1">{"{"}</span>
+                                        <span className="export tab1">&#123;</span>
                                     </div>
                                     <div>
-                                        <span className="text-white tab2">name:&nbsp;</span>
-                                        <span className="string">"Manager"</span>
+                                        <span className="text-white tab2">name&#58;&nbsp;</span>
+                                        <span className="string">&#34;Manager&#34;</span>
                                     </div>
                                     <div>
-                                        <span className="text-white tab2">year:&nbsp;</span>
-                                        <span className="string">"2023"</span>
+                                        <span className="text-white tab2">year&#58;&nbsp;</span>
+                                        <span className="string">&#34;2023&#34;</span>
                                     </div>
                                     <div>
-                                        <span className="text-white tab2">clientName:&nbsp;</span>
-                                        <span className="string">"self"</span>
+                                        <span className="text-white tab2">clientName&#58;&nbsp;</span>
+                                        <span className="string">&#34;self&#34;</span>
                                     </div>
                                     <div>
-                                        <span className="text-white tab2">status:&nbsp;</span>
-                                        <span className="string">"PENDING"</span>
+                                        <span className="text-white tab2">status&#58;&nbsp;</span>
+                                        <span className="string">&#34;PENDING&#34;</span>
                                     </div>
                                     <div>
-                                        <span className="text-white tab2">website:&nbsp;</span>
-                                        <span className="string">"localhost"</span>
+                                        <span className="text-white tab2">website&#58;&nbsp;</span>
+                                        <span className="string">&#34;localhost&#34;</span>
                                     </div>
                                     <div>
-                                        <span className="text-white tab2">remarks:&nbsp;</span>
-                                        <span className="function">{"["}</span>
+                                        <span className="text-white tab2">remarks&#58;&nbsp;</span>
+                                        <span className="function">&#91;</span>
                                     </div>
                                     <div className="tab3">
                                         <span className="string">
-                                            "I created this project on the side with an intention to sell it. 
+                                            &#34;I created this project on the side with an intention to sell it. 
                                             Manager is a project management tool. Reason I started this is because I noticed there is something 
                                             that is lacking in all project management tools such as monday.com, trello, lark, notion and more. However, this hole is not easy to fill without AI. 
                                             Fortunately, I have some AI background. This project is build on Vue3 and Laravel. 
                                             This project will be taking awhile to complete. Though the core module is completed in order to compete with in the industry 
-                                            I will need to plan out the marketing and also include some submodules as subscription benefits."
+                                            I will need to plan out the marketing and also include some submodules as subscription benefits.&#34;
                                         </span>
                                     </div>
                                     <div>
-                                        <span className="function tab2">{"]"}</span>
+                                        <span className="function tab2">&#93;</span>
                                     </div>
                                     <div>
-                                        <span className="export tab1">{"}"}</span>
+                                        <span className="export tab1">&#125;</span>
                                         <span className="text-white">, &nbsp;</span>
                                     </div>
                                     <div>
-                                        <span className="export tab1">{"{"}</span>
+                                        <span className="export tab1">&#123;</span>
                                     </div>
                                     <div>
-                                        <span className="text-white tab2">name:&nbsp;</span>
-                                        <span className="string">"Sunway Medical Hospital Sub System"</span>
+                                        <span className="text-white tab2">name&#58;&nbsp;</span>
+                                        <span className="string">&#34;Sunway Medical Hospital Sub System&#34;</span>
                                     </div>
                                     <div>
-                                        <span className="text-white tab2">year:&nbsp;</span>
-                                        <span className="string">"2024"</span>
+                                        <span className="text-white tab2">year&#58;&nbsp;</span>
+                                        <span className="string">&#34;2024&#34;</span>
                                     </div>
                                     <div>
-                                        <span className="text-white tab2">clientName:&nbsp;</span>
-                                        <span className="string">"Sunway Medical"</span>
+                                        <span className="text-white tab2">clientName&#58;&nbsp;</span>
+                                        <span className="string">&#34;Sunway Medical&#34;</span>
                                     </div>
                                     <div>
-                                        <span className="text-white tab2">status:&nbsp;</span>
-                                        <span className="string">"PENDING"</span>
+                                        <span className="text-white tab2">status&#58;&nbsp;</span>
+                                        <span className="string">&#34;PENDING&#34;</span>
                                     </div>
                                     <div>
-                                        <span className="text-white tab2">website:&nbsp;</span>
-                                        <span className="string">"-"</span>
+                                        <span className="text-white tab2">website&#58;&nbsp;</span>
+                                        <span className="string">&#34;-&#34;</span>
                                     </div>
                                     <div>
-                                        <span className="text-white tab2">remarks:&nbsp;</span>
-                                        <span className="function">{"["}</span>
+                                        <span className="text-white tab2">remarks&#58;&nbsp;</span>
+                                        <span className="function">&#91;</span>
                                     </div>
                                     <div className="tab3">
                                         <span className="string">
-                                            "I am a friend with a Doctor in Sunway Medical and she is aware that I am in the IT industry.
-                                            As Sunway launched a new system, they have some issues with some of their procedure and wish to digitalize the process.
-                                            I was approached to give a demo if I am able to accomplish this. I managed to complete the demo and is currently in talks for the deal."
+                                        &#34;A doctor in Sunway Medical is a friend of mine and she is aware that I am in the IT industry.
+                                            Recently Sunway Medical launched a new system. However, they have some issues with some of their procedure and wish to digitalize the process.
+                                            My friend then reached out to me and check if I am able to accomplish the task.
+                                            I completed the demo and is currently in the midst of negotiation.&#34;
                                         </span>
                                     </div>
                                     <div>
-                                        <span className="function tab2">{"]"}</span>
+                                        <span className="function tab2">&#93;</span>
                                     </div>
                                     <div>
-                                        <span className="export tab1">{"}"}</span>
-                                        <span className="function">{"]"}</span>
+                                        <span className="export tab1">&#125;</span>
+                                        <span className="function">&#93;</span>
                                     </div>
                                 </pre>
                             </code>
                         </div>
                     </div>
                 </div>
-                <div className="d-flex justify-content-center" style={{ height: "100%", paddingLeft: "3rem" }}>
+                <div className="d-flex justify-content-center mt-5" style={{ height: "100%" }}>
                     <FontAwesomeIcon icon={faCheck} className="p-1 fas fa-circle text-white"/>
                     <code className="text-white">This is a big world. Don't settle with walking. Fly.</code>
                 </div>
