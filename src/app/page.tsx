@@ -54,7 +54,7 @@ export default function Home() {
                                         <br></br>
                                         <br></br>
                                         At this point you are probably wondering why did I transitioned into software engineering right? 
-                                        Don't worry. I got that a lot. I got you tho. 
+                                        Don&#39;t worry. I got that a lot. I got you tho. 
                                     </div>
                                     <br></br>
                                     <div className="tab4">
@@ -148,11 +148,11 @@ export default function Home() {
                                         Despite all the sufferings, the satisfaction after you completed a function or made something works is truly remarkable.
                                         That is how my interest in programming sparked. Since then, I started self-learning simple HTML, CSS and Javascript. 
                                         As I learn more about web development, the more I fall in love with it. At this point I am seriously thinking about permanently transitioning into software development. 
-                                        Just one problem, I wasn't sure if i was good enough.
+                                        Just one problem, I wasn&#39;t sure if i was good enough.
                                         <br></br>
                                         <br></br>
                                         I was already ending my third year of University. One more year to go before I start to wear my big boy pants. 
-                                        I fear I don't have enough time to learn enough to secure a job in the software industry. 
+                                        I fear I don&#39;t have enough time to learn enough to secure a job in the software industry. 
                                         Thus, I started waking up at 4am to self learn to make up for those loss time.
                                         <br></br>
                                         <br></br>
@@ -564,7 +564,7 @@ export default function Home() {
                                         </div>
                                         <div>
                                             <span className="string">
-                                            &#34;The delivery robot is incorporated with a Computer Vision Optical Character Recognition (OCR) application to detect the patient's bed number and deliver the food to the patient.&#34;
+                                            &#34;The delivery robot is incorporated with a Computer Vision Optical Character Recognition (OCR) application to detect the patient&#39;s bed number and deliver the food to the patient.&#34;
                                             </span>
                                             <span className="text-white">,</span>
                                         </div>
@@ -944,7 +944,7 @@ export default function Home() {
                 </div>
                 <div className="d-flex justify-content-center mt-5" style={{ height: "100%" }}>
                     <FontAwesomeIcon icon={faCheck} className="p-1 fas fa-circle text-white"/>
-                    <code className="text-white">This is a big world. Don't settle with walking. Fly.</code>
+                    <code className="text-white">This is a big world. Don&#39;t settle with walking. Fly.</code>
                 </div>
             </section>
             <Footer></Footer>
