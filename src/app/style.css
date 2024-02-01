@@ -1,0 +1,8 @@
+.about-me {
+    background-color: #07273b!important;
+    max-width: 760px;
+}
+ 
+.about-me .card-body {
+    color: white;
+}
