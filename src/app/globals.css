@@ -108,12 +108,23 @@ html, body {
 
 @media screen and (max-width: 992px) { 
     .mod-div .mod{
-        display: none;
+        display: flex;
     }
 }
 
 @media screen and (max-width: 992px) { 
-    .mod-div .menu{
-        display: block!important;
+    .nav {
+        justify-content: start;
+        align-items: start!important;
+        flex-direction: column;
+    }
+
+    .mod-div {
+        margin-top: 1rem;
+        flex-direction: column;
+    }
+
+    .mod-div .mod {
+        padding: 0!important;
     }
 }
