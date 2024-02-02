@@ -1156,6 +1156,49 @@ export default function Home() {
                                     </div>
                                     <div>
                                         <span className="export tab1">&#125;</span>
+                                        <span className="text-white">,</span>
+                                        {/* <span className="function">&#93;</span> */}
+                                    </div>
+                                    <div>
+                                        <span className="export tab1">&#123;</span>
+                                    </div>
+                                    <div>
+                                        <span className="text-white tab2">name&#58;&nbsp;</span>
+                                        <span className="string">&#34;448 Food Bank Website&#34;</span>
+                                    </div>
+                                    <div>
+                                        <span className="text-white tab2">year&#58;&nbsp;</span>
+                                        <span className="string">&#34;2024&#34;</span>
+                                    </div>
+                                    <div>
+                                        <span className="text-white tab2">clientName&#58;&nbsp;</span>
+                                        <span className="string">&#34;448 Food Bank&#34;</span>
+                                    </div>
+                                    <div>
+                                        <span className="text-white tab2">status&#58;&nbsp;</span>
+                                        <span className="string">&#34;PENDING&#34;</span>
+                                    </div>
+                                    <div>
+                                        <span className="text-white tab2">website&#58;&nbsp;</span>
+                                        <span className="string"><a className="string" href="https://www.448foodbank.org/" target="_blank">&#34;https://www.448foodbank.org/&#34;</a></span>
+                                    </div>
+                                    <div>
+                                        <span className="text-white tab2">remarks&#58;&nbsp;</span>
+                                        <span className="function">&#91;</span>
+                                    </div>
+                                    <div className="tab3">
+                                        <span className="string">
+                                            &#34;A friend of mine introduced me to the founder 448 food bank, Dr Joseph Pang.
+                                            They just completed the website handover however the content was not completed.
+                                            I was approached by Dr Joseph Pang to complete the website for them. The agreement is finalized however work is currently still in progress. 
+                                            Expected to go live in June 2024.&#34;
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span className="function tab2">&#93;</span>
+                                    </div>
+                                    <div>
+                                        <span className="export tab1">&#125;</span>
                                         <span className="function">&#93;</span>
                                     </div>
                                 </pre>
