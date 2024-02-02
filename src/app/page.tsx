@@ -806,15 +806,15 @@ export default function Home() {
                                     <div className="tab3">
                                         <div className="string-src">
                                             <div>
-                                                <span className="string"><a className="string" href="stationR.jpeg" target="_blank">&#34;{window.location.origin + "/stationR.jpeg"}&#34;</a></span>
+                                                <span className="string"><a className="string" href="stationR.jpeg" target="_blank">&#34;{"stationR.jpeg"}&#34;</a></span>
                                                 <span className="text-white">, &nbsp;</span>
                                             </div>
                                             <div>
-                                                <span className="string"><a className="string" href="twelveFloorMainPage.png" target="_blank">&#34;{window.location.origin + "/twelveFloorMainPage.png"}&#34;</a></span>
+                                                <span className="string"><a className="string" href="twelveFloorMainPage.png" target="_blank">&#34;{"twelveFloorMainPage.png"}&#34;</a></span>
                                                 <span className="text-white">, &nbsp;</span>
                                             </div>
                                             <div>
-                                                <span className="string"><a className="string" href="twelveFloorSnippets.png" target="_blank">&#34;{window.location.origin + "/twelveFloorSnippets.png"}&#34;</a></span>
+                                                <span className="string"><a className="string" href="twelveFloorSnippets.png" target="_blank">&#34;{"twelveFloorSnippets.png"}&#34;</a></span>
                                                 <span className="text-white">, &nbsp;</span>
                                             </div>
                                         </div>
@@ -883,15 +883,15 @@ export default function Home() {
                                     <div className="tab3">
                                         <div className="string-src">
                                             <div>
-                                                <span className="string"><a className="string" href="crossoverpoint.gif" target="_blank">&#34;{window.location.origin + "/crossoverpoint.gif"}&#34;</a></span>
+                                                <span className="string"><a className="string" href="crossoverpoint.gif" target="_blank">&#34;{"crossoverpoint.gif"}&#34;</a></span>
                                                 <span className="text-white">, &nbsp;</span>
                                             </div>
                                             <div>
-                                                <span className="string"><a className="string" href="crossoverpoint-dashboard-scroll-effects.gif" target="_blank">&#34;{window.location.origin + "/crossoverpoint-dashboard-scroll-effects.gif"}&#34;</a></span>
+                                                <span className="string"><a className="string" href="crossoverpoint-dashboard-scroll-effects.gif" target="_blank">&#34;{"crossoverpoint-dashboard-scroll-effects.gif"}&#34;</a></span>
                                                 <span className="text-white">, &nbsp;</span>
                                             </div>
                                             <div>
-                                                <span className="string"><a className="string" href="crossoverpoint-testimonies-scroll-effects.gif" target="_blank">&#34;{window.location.origin + "/crossoverpoint-testimonies-scroll-effects.gif"}&#34;</a></span>
+                                                <span className="string"><a className="string" href="crossoverpoint-testimonies-scroll-effects.gif" target="_blank">&#34;{"crossoverpoint-testimonies-scroll-effects.gif"}&#34;</a></span>
                                                 <span className="text-white">, &nbsp;</span>
                                             </div>
                                         </div>
@@ -959,27 +959,27 @@ export default function Home() {
                                     <div className="tab3">
                                         <div className="string-src">
                                             <div>
-                                                <span className="string"><a className="string" href="g-login.gif" target="_blank">&#34;{window.location.origin + "/g-login.gif"}&#34;</a></span>
+                                                <span className="string"><a className="string" href="g-login.gif" target="_blank">&#34;{"g-login.gif"}&#34;</a></span>
                                                 <span className="text-white">, &nbsp;</span>
                                             </div>
                                             <div>
-                                                <span className="string"><a className="string" href="create-arrangements.gif" target="_blank">&#34;{window.location.origin + "/create-arrangements.gif"}&#34;</a></span>
+                                                <span className="string"><a className="string" href="create-arrangements.gif" target="_blank">&#34;{"create-arrangements.gif"}&#34;</a></span>
                                                 <span className="text-white">, &nbsp;</span>
                                             </div>
                                             <div>
-                                                <span className="string"><a className="string" href="permission-module.gif" target="_blank">&#34;{window.location.origin + "/permission-module.gif"}&#34;</a></span>
+                                                <span className="string"><a className="string" href="permission-module.gif" target="_blank">&#34;{"permission-module.gif"}&#34;</a></span>
                                                 <span className="text-white">, &nbsp;</span>
                                             </div>
                                             <div>
-                                                <span className="string"><a className="string" href="generate-pco.gif" target="_blank">&#34;{window.location.origin + "/generate-pco.gif"}&#34;</a></span>
+                                                <span className="string"><a className="string" href="generate-pco.gif" target="_blank">&#34;{"generate-pco.gif"}&#34;</a></span>
                                                 <span className="text-white">, &nbsp;</span>
                                             </div>
                                             <div>
-                                                <span className="string"><a className="string" href="offering.gif" target="_blank">&#34;{window.location.origin + "/offering.gif"}&#34;</a></span>
+                                                <span className="string"><a className="string" href="offering.gif" target="_blank">&#34;{"offering.gif"}&#34;</a></span>
                                                 <span className="text-white">, &nbsp;</span>
                                             </div>
                                             <div>
-                                                <span className="string"><a className="string" href="respond-request.gif" target="_blank">&#34;{window.location.origin + "/respond-request.gif"}&#34;</a></span>
+                                                <span className="string"><a className="string" href="respond-request.gif" target="_blank">&#34;{"respond-request.gif"}&#34;</a></span>
                                             </div>
                                         </div>
                                         <div className="img-src d-none">
@@ -1058,31 +1058,31 @@ export default function Home() {
                                     <div className="tab3">
                                         <div className="string-src">
                                             <div>
-                                                <span className="string"><a className="string" href="manager-g-login.gif" target="_blank">&#34;{window.location.origin + "/manager-g-login.gif"}&#34;</a></span>
+                                                <span className="string"><a className="string" href="manager-g-login.gif" target="_blank">&#34;{"manager-g-login.gif"}&#34;</a></span>
                                                 <span className="text-white">, &nbsp;</span>
                                             </div>
                                             <div>
-                                                <span className="string"><a className="string" href="project-drag-drop.gif" target="_blank">&#34;{window.location.origin + "/project-drag-drop.gif"}&#34;</a></span>
+                                                <span className="string"><a className="string" href="project-drag-drop.gif" target="_blank">&#34;{"project-drag-drop.gif"}&#34;</a></span>
                                                 <span className="text-white">, &nbsp;</span>
                                             </div>
                                             <div>
-                                                <span className="string"><a className="string" href="project-sticky-note.gif" target="_blank">&#34;{window.location.origin + "/project-sticky-note.gif"}&#34;</a></span>
+                                                <span className="string"><a className="string" href="project-sticky-note.gif" target="_blank">&#34;{"project-sticky-note.gif"}&#34;</a></span>
                                                 <span className="text-white">, &nbsp;</span>
                                             </div>
                                             <div>
-                                                <span className="string"><a className="string" href="task-drag-drop-expand.gif" target="_blank">&#34;{window.location.origin + "/task-drag-drop-expand.gif"}&#34;</a></span>
+                                                <span className="string"><a className="string" href="task-drag-drop-expand.gif" target="_blank">&#34;{"task-drag-drop-expand.gif"}&#34;</a></span>
                                                 <span className="text-white">, &nbsp;</span>
                                             </div>
                                             <div>
-                                                <span className="string"><a className="string" href="task-comment.gif" target="_blank">&#34;{window.location.origin + "/task-comment.gif"}&#34;</a></span>
+                                                <span className="string"><a className="string" href="task-comment.gif" target="_blank">&#34;{"task-comment.gif"}&#34;</a></span>
                                                 <span className="text-white">, &nbsp;</span>
                                             </div>
                                             <div>
-                                                <span className="string"><a className="string" href="task-wrap.gif" target="_blank">&#34;{window.location.origin + "/task-wrap.gif"}&#34;</a></span>
+                                                <span className="string"><a className="string" href="task-wrap.gif" target="_blank">&#34;{"task-wrap.gif"}&#34;</a></span>
                                                 <span className="text-white">, &nbsp;</span>
                                             </div>
                                             <div>
-                                                <span className="string"><a className="string" href="task-change-status.gif" target="_blank">&#34;{window.location.origin + "/task-change-status.gif"}&#34;</a></span>
+                                                <span className="string"><a className="string" href="task-change-status.gif" target="_blank">&#34;{"task-change-status.gif"}&#34;</a></span>
                                             </div>
                                         </div>
                                         <div className="img-src d-none">
